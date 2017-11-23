@@ -1,7 +1,7 @@
 {
   "name": "cycle-http-redirect",
-  "version": "0.0.1",
-  "description": "nodejs http server redirect",
+  "version": "0.0.2",
+  "description": "Cycle.js driver for Node.js http server redirect",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
