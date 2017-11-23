@@ -1,0 +1,19 @@
+{
+  "name": "cycle-http-redirect",
+  "version": "0.0.1",
+  "description": "nodejs http server redirect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloodyKnuckles/cycle-http-redirect.git"
+  },
+  "author": "Jay Scott ANDERSON",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/bloodyKnuckles/cycle-http-redirect/issues"
+  },
+  "homepage": "https://github.com/bloodyKnuckles/cycle-http-redirect#readme"
+}
