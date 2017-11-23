@@ -8,5 +8,5 @@ module.exports = function (response) {
       error: () => {},
       complete: () => {}
     })
-  })
+  }
 }
