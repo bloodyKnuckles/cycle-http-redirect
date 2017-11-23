@@ -1,10 +1,12 @@
-module.exports = function (url$) {
-  url$.addListener({
-    next: url => {
-      res.writeHead(302, {'Location': url})
-      res.end()
-    },
-    error: () => {},
-    complete: () => {}
+module.exports = function (response) {
+  return function (url$) {
+    url$.addListener({
+      next: url => {
+        response.writeHead(302, {'Location': url})
+        response.end()
+      },
+      error: () => {},
+      complete: () => {}
+    })
   })
 }
