@@ -1,6 +1,6 @@
 {
   "name": "cycle-http-redirect",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Cycle.js driver for Node.js http server redirect",
   "main": "index.js",
   "scripts": {
