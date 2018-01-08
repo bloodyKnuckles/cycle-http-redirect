@@ -40,8 +40,11 @@ function main (sources) {
 }
 
 const http = require('http')
+
+let dispose
 const server = http.createServer(function (req, res) {
-  run(main, {
+  dispose && dispose()
+  dispose = run(main, {
     DOM: makeHTMLDriver(html => res.end(html)),
     context: function () { return xs.of(req.url).remember() } ,
     REDIRECT: makeRedirectDriver(res)
